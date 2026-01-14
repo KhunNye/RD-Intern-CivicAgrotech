@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<data>
+  <loop>false</loop>
+  <repeat_times>1</repeat_times>
+  <repeat_period>500</repeat_period>
+  <packets_list>
+    <packet name="Enquiry ID">
+      <payload>FF0307D000019159</payload>
+    </packet>
+    <packet name="09 Read temp nad hum">
+      <payload>0903000000044541</payload>
+    </packet>
+    <packet name="01 Read temp nad hum">
+      <payload>0103000000044409</payload>
+    </packet>
+    <packet name="Set id 09 to 01">
+      <payload>090607D0000149CF</payload>
+    </packet>
+    <packet name="Set id 01 to 09">
+      <payload>010607D000094941</payload>
+    </packet>
+    <packet name="01 set baud rate default">
+      <payload>010607D100011947</payload>
+    </packet>
+  </packets_list>
+</data>

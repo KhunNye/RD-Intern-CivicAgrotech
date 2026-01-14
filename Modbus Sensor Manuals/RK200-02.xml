@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<data>
+  <loop>false</loop>
+  <repeat_times>1</repeat_times>
+  <repeat_period>500</repeat_period>
+  <packets_list>
+    <packet name="09 Read UV">
+      <payload>0904000000013082</payload>
+    </packet>
+    <packet name="Modify Address 09 to 01">
+      <payload>090600420001E956</payload>
+    </packet>
+    <packet name="Modify Address 01 to 09">
+      <payload>010600420009E9D8</payload>
+    </packet>
+  </packets_list>
+</data>
