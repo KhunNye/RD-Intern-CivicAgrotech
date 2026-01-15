@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<data>
+  <loop>false</loop>
+  <repeat_times>1</repeat_times>
+  <repeat_period>500</repeat_period>
+  <packets_list>
+    <packet name="Read soil hum, temp, con, pH, N, P, K">
+      <payload>0103000000070408</payload>
+    </packet>
+    <packet name="Enquiry slave ID ">
+      <payload>FF0307D000019159</payload>
+    </packet>
+    <packet name="Set slave ID">
+      <payload>010607D000020886</payload>
+    </packet>
+    <packet name="Set baud rate">
+      <payload>010607D100025946</payload>
+    </packet>
+  </packets_list>
+</data>
